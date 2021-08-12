@@ -8,6 +8,8 @@ This is a basic BE and FE example for Graph Ql operations, A simple chat Bot
 - Typescript
 - Graphql
 - Angular
+- Type ORM
+- Postgress
 
 ### Getting Started 
 ```shell script
