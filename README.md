@@ -1,6 +1,9 @@
 
 
-#  Graphql subscrition with Query ,Mutation and made with 
+#  Graphql subscrition with Query ,Mutation
+This is a basic BE and FE example for Graph Ql operations, A simple chat Bot
+
+### Made with
 - Koa
 - Typescript
 - Graphql
