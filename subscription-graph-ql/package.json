@@ -1,0 +1,38 @@
+{
+  "name": "subscription",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "^3.1.2",
+    "dotenv": "^8.6.0",
+    "graphql": "^15.5.1",
+    "graphql-subscriptions": "^1.2.1",
+    "koa": "^2.13.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.0.0",
+    "pg": "^8.7.1",
+    "subscriptions-transport-ws": "^0.9.19",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.36"
+  },
+  "devDependencies": {
+    "@graphql-tools/schema": "^8.0.3",
+    "@types/koa": "^2.13.4",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^16.4.13",
+    "@types/ws": "^7.4.7",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
